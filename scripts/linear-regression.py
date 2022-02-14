@@ -81,8 +81,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # %%
-%matplotlib inline
 data.plot(kind ='scatter', x='TV', y='Sales')
 plt.plot(pd.DataFrame(data['TV']), sales_pred, c='red', linewidth=2)
-
-
+plt.show()
